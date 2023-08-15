@@ -52,10 +52,5 @@ variable "repository_private" {
 
 variable "repository_template" {
     type = string
-    default = "devps-template-repo"
-}
-
-variable "repository_visible" {
-    type = string
-    default = "internal"
+    default = "devops-template-repo"
 }

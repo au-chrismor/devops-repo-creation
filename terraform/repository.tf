@@ -7,8 +7,6 @@ resource "github_repository" "repo" {
     has_projects = var.repository_has_projects
     has_wiki = var.repository_has_wiki
     private = var.repository_private
-    repository_has_issues = var.repository_has_issues
-    visibility = var.repository_visible
 
     template {
         owner = var.repository_owner
