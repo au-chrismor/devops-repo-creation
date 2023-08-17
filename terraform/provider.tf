@@ -8,7 +8,7 @@ terraform {
   cloud {
     organization = "chrismoran64"
       workspaces {
-        name = "emergent-devops"\
+        name = "emergent-devops"
       }
   }
 
